@@ -500,31 +500,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 60460174460865219, guid: 6de9b0deec0424e74ab73bb8464fe769,
-        type: 3}
-      propertyPath: smoothing
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 535159994356132480, guid: 6de9b0deec0424e74ab73bb8464fe769,
         type: 3}
       propertyPath: m_Name
       value: Capsule
       objectReference: {fileID: 0}
-    - target: {fileID: 535159994356132480, guid: 6de9b0deec0424e74ab73bb8464fe769,
-        type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 1493746583085087137, guid: 6de9b0deec0424e74ab73bb8464fe769,
-        type: 3}
-      propertyPath: crouchAmount
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2337190453780246246, guid: 6de9b0deec0424e74ab73bb8464fe769,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: c6e6cecb613164f329c1af91be068447, type: 2}
     - target: {fileID: 6081166262969023772, guid: 6de9b0deec0424e74ab73bb8464fe769,
         type: 3}
       propertyPath: m_RootOrder

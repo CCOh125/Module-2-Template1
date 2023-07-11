@@ -28,6 +28,7 @@ public class MouseShoot : MonoBehaviour
             RaycastHit hit;
             if (Physics.Raycast(rayOrigin, fpsCam.transform.forward, out hit,range))
             {
+
                 if (hit.collider.GetComponent<IDamagable>() != null)
                 {
                     hit.collider.GetComponent<IDamagable>().TakeDamage(damage);
